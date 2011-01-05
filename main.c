@@ -17,7 +17,6 @@ main (int argc, char **argv) {
         glfwTerminate();
     }
     glfwSetWindowTitle("Snakeo");
-    glfwEnable(GLFW_STICKY_KEYS);
 
     init_GL();
 

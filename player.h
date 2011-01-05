@@ -4,16 +4,11 @@
 #include "defs.h"
 
 typedef struct {
-    Quad *data;
-    int freq;
-} Body;
-
-typedef struct {
     int id;
     char *name;
-    Vertex2d pos;
     Colour c;
-    Body body;
+    Quad *data;
+    int size;
     int current_dir;
 } Player;
 

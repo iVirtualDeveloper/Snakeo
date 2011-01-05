@@ -18,8 +18,8 @@ draw_players(Player *players) {
 void
 draw_player(Player player) {
     int i;
-    for (i = 0; i < player.body.freq; i++) {
-        draw_quad(player.body.data[i], player.c);
+    for (i = 0; i < player.size; i++) {
+        draw_quad(player.data[i], player.c);
     }
 }
 
